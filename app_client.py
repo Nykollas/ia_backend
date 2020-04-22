@@ -7,14 +7,14 @@ import time
 
 appConfig = {
 	"auth":{
-		"key":"a-x0o63c-xgjjldmpaz",
-		"token":"w6NA&AodFYSJPU-R8*"
+		"key":"<key>",
+		"token":"<auth-token>"
 	}
 }
 
 app = Flask(__name__)
 
-mongo_client = MongoClient("mongodb+srv://projetosi:projetosi@projetosi-kvwhk.mongodb.net/test?retryWrites=true&w=majority")
+mongo_client = MongoClient("<mongodb connect string>")
 
 types = ['sensor_gas', "sensor_umidity", "sensor_temp"]
 
